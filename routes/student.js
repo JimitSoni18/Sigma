@@ -13,10 +13,10 @@ router.post('/add-student', async (req, res) => {
             fees = 10000
         }
         else if(std === 9){
-            fees = 15000
+            fees = 150000
         }
         else if(std === 10){
-            fees = 20000
+            fees = 200000
         }
         const student = new Student({ name, phone, password, standard, fees, userid });
         await student.save();
