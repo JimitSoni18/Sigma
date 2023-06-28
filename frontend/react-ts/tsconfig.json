@@ -18,7 +18,19 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Added as Required */
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noUnusedExpressions": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
